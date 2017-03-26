@@ -17,7 +17,9 @@ import com.android.volley.toolbox.ImageLoader;
  */
 
 
-
+/**
+ * Denna klass är för att kunna få en bild från webbadressen
+ */
     public class CustomVolleyRequest {
 
         private static CustomVolleyRequest customVolleyRequest;
