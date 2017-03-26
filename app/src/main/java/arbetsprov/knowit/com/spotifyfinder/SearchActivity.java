@@ -123,11 +123,9 @@ public class SearchActivity extends AppCompatActivity {
                                     JSONArray imagesArray = albumObject.getJSONArray("images");
                                     JSONObject imagesSmallObject = (JSONObject) imagesArray.get(1);
                                     String smallImage = imagesSmallObject.getString("url");
-                                    //  URL urlSmallImage = new URL(SmallImage);
 
                                     JSONObject imagesBigObject = (JSONObject) imagesArray.get(0);
                                     String bigImage = imagesBigObject.getString("url");
-                                    // URL urlBigImage = new URL(BigImage);
 
 
                                     String nameSong = albumObject.getString("name");
@@ -147,7 +145,8 @@ public class SearchActivity extends AppCompatActivity {
                     }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(getBaseContext(), "Nothing!", Toast.LENGTH_LONG).show();
+                    String msg = (limit > 50) ? "Nothing, Limit should not be more than 50" :"Nothing!";
+                    Toast.makeText(getBaseContext(),msg , Toast.LENGTH_LONG).show();
                 }
             });
 
