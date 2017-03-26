@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppSongDescTextStyle" parent="AppTextStyle">
+
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">#E62948</item>
+
+    </style>
+
+    <style name="AppArtistDescTextStyle" parent="AppTextStyle">
+
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textColor">#E62948</item>
+    </style>
+</resources>
