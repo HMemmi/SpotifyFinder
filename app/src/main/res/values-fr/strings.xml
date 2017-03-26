@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spotify Finder</string>
+    <string name="textViewSong" translatable="false">Piste</string>
+    <string name="button_search" translatable="false">Recherche</string>
+    <string name="artist" translatable="false">Artist</string>
+    <string name="Limit" translatable="false">Limite</string>
+    <string name="Song_name" translatable="false">Titre de chanson</string>
+</resources>

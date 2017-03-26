@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="@string/textViewSong" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textAutoComplete"
+            android:id="@+id/song"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:text="@string/Limit" />
+    <EditText
+        android:id="@+id/limit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_search"
+            android:id="@+id/search_button"/>
+    </LinearLayout>
+
+</LinearLayout>

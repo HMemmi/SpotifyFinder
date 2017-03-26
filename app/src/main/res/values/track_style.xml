@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <style name="AppTextStyle">
+
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">#413135</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+
+    <style name="AppSongTextStyle" parent="AppTextStyle">
+
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">#E62948</item>
+
+
+    </style>
+
+    <style name="AppArtistTextStyle" parent="AppTextStyle">
+
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textColor">#999596</item>
+    </style>
+
+
+</resources>

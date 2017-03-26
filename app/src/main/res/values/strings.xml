@@ -1,0 +1,10 @@
+<resources>
+    <string name="textViewSong" translatable="false">Song</string>
+    <string name="Limit" translatable="false">Limit</string>
+    <string name="Song_name" translatable="false">Song Name</string>
+    <string name="artist" translatable="false">Artist</string>
+    <string name="button_search" translatable="false">Search</string>
+    <string name="app_name" translatable="false">Spotify Finder</string>
+
+
+</resources>

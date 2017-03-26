@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="artist" translatable="false">Artist</string>
+    <string name="textViewSong" translatable="false">Låt</string>
+    <string name="app_name" translatable="false">Spotify Finder</string>
+    <string name="button_search" translatable="false">Sök</string>
+    <string name="Limit" translatable="false">Gräns</string>
+    <string name="Song_name" translatable="false">Låttitel</string>
+</resources>
