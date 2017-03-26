@@ -55,7 +55,6 @@ public class ListTrack extends AppCompatActivity implements AdapterView.OnItemCl
 
     private class Auth extends AsyncTask<Void, Void, Void> {
 
-
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
@@ -70,8 +69,6 @@ public class ListTrack extends AppCompatActivity implements AdapterView.OnItemCl
         @Override
         protected Void doInBackground(Void... params) {
             intent.putExtra("track", track);
-
-
             return null;
         }
 
