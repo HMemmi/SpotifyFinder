@@ -103,7 +103,7 @@ public class SearchActivity extends AppCompatActivity {
                             try {
                                 String artistName = null;
                                 if (limitUrl.equals("")) {
-                                    limit = 20;
+                                    limit = 20; //Eftersom, per default limit är 20
                                 }
 
                                 for (int i = 0; i < limit; i++) {
