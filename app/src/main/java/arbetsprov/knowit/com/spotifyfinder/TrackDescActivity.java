@@ -42,14 +42,8 @@ public class TrackDescActivity extends AppCompatActivity {
 
         Intent it = getIntent();
         Track track = (Track) it.getSerializableExtra("track");
-        songName = (TextView) findViewById(R.id.songNameDesc);
-        artistName = (TextView) findViewById(R.id.artistNameDesc);
-        songImage = (NetworkImageView) findViewById(R.id.songImage);
-        artistImage = (NetworkImageView) findViewById(R.id.artistImage);
 
-        songName.setText(track.getName());
-        artistName.setText(track.getArtist().getName());
-
+        createComponents(track);
 
         loadImage(track.getImage().getUrlBigImage(), songImage);
 
@@ -80,6 +74,16 @@ public class TrackDescActivity extends AppCompatActivity {
             }
         });
         queue.add(stringRequest);
+    }
+
+    private void createComponents(Track track) {
+        songName = (TextView) findViewById(R.id.songNameDesc);
+        artistName = (TextView) findViewById(R.id.artistNameDesc);
+        songImage = (NetworkImageView) findViewById(R.id.songImage);
+        artistImage = (NetworkImageView) findViewById(R.id.artistImage);
+
+        songName.setText(track.getName());
+        artistName.setText(track.getArtist().getName());
     }
 
     private void loadImage(String urlImage, NetworkImageView networkImageView) {
